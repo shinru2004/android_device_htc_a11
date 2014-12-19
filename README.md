@@ -13,7 +13,7 @@ Memory  | 1GB RAM
 Shipped Android Version | 4.4.2
 Storage | 8GB
 Battery | 2600 mAh
-Display | 5.5" 835 x 480 px
+Display | 4.7" 835 x 480 px
 Primary Camera  | 5MPx, Fixed Focus
 Secondary Camera | 1.5MPx
 
