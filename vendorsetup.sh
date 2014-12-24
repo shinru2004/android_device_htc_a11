@@ -1,0 +1,2 @@
+add_lunch_combo cm_a11-eng
+add_lunch_combo cm_a11-userdebug
