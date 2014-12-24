@@ -103,6 +103,17 @@ void vendor_load_properties()
         property_set("telephony.sms.pseudo_multipart", "1");
         property_set("ro.ril.oem.ecclist", "911");
         property_set("ro.ril.set.mtusize", "1422");
+    } else if (strstr(bootmid, "OPCV2000")) {
+        /* a11chl */
+        cdma_properties("1", "8", "310120", "Boost Mobile");
+        property_set("ro.build.fingerprint", "htc/Boost_wwe/htc_a11chl:4.4.2/KOT49H/338737.1:user/release-keys");
+        property_set("ro.build.description", "1.13.652.1 CL338737 release-keys");
+        property_set("ro.product.model", "HTC Desire 510");
+        property_set("ro.product.device", "a11chl");
+        property_set("ro.build.product", "a11chl");
+        property_set("telephony.sms.pseudo_multipart", "1");
+        property_set("ro.ril.oem.ecclist", "911");
+        property_set("ro.ril.set.mtusize", "1422");
     } else {
         /* a11ul */
         gsm_properties("9");
